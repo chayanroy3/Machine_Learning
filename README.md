@@ -13,14 +13,17 @@
   * Photo archive
 * Reinforced Learning: Feedback in terms of reward and punishments, A learner is not told what actions to take as in most forms of machine learning but instead must discover which actions yield the most reward by trying them. 
 ### Types of Supervised Learning:
-  * Classification:
+  * Classification: Examples: Logistic Regression, Naive Bayes, Decision Tree, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), etc
     * Binary Classification ( Scam not scam)
-    * MUlticlass CLassification
-  * Regression: Outputs are continuous rather than discrete
+    * Multiclass CLassification
+  * Regression: Outputs are continuous rather than discrete. Example: Linear Regression, Polynomial Regression, Ridge Regression, Decision Tree Regression, Random Forest Regression, Support Vector Regression, etc
 ### Types of Unsupervised learning:
-  * Clusterning: Groups are not known before hand
+  * Clusterning: Groups are not known before hand. Some popular clustering algorithms include K-means, Hierarchical clustering, and DBSCAN.
   * Density estimation: Find distribution of inputs in space
-  * Dimention reduction: Simplifies by mapping them into llower dimension space
+  * Dimention reduction: Simplifies by mapping them into llower dimension space.Some popular dimensionality reduction algorithms include Principal Component Analysis (PCA), t-SNE, and Autoencoders.
+### Types of reinforcement Machine learning
+* Model based reinforcement learning:  the agent learns a model of the environment, including the transition probabilities between states and the rewards associated with each state-action pair. Some popular model-based reinforcement learning algorithms include Value Iteration and Policy Iteration.
+* Model free reinforcement learning: learns a policy directly from experience without explicitly building a model of the environment. Some popular model-free reinforcement learning algorithms include Q-Learning, SARSA, and Deep Reinforcement Learning.
 ### Terms in machine learning:
   * Model or hypothesis
   * Feature
