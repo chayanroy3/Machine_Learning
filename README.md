@@ -43,3 +43,9 @@
 9. Fine tune the model
 10. Deploy the model
 11. MOnitor the model
+### Challenges and limitation:
+1. lack of data diversity
+2. No data availble
+3. needs to have heterogeneity
+4. No or few variation
+5. atleast 20 observations per group
